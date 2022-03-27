@@ -2,7 +2,7 @@
 #
 # Version:  C:/Program Files/Autodesk/Maya2022/plug-ins/xgen/
 # Author:   Nate
-# Date:     Sun Mar 27 15:50:54 2022
+# Date:     Sun Mar 27 16:54:05 2022
 
 FileVersion 18
 
@@ -145,7 +145,7 @@ SplinePrimitive
 	endAttrs
 
 ClumpingFXModule
-	active			false
+	active			true
 	mask			1.0
 	name			Clumping1
 	cvAttr			false
@@ -167,7 +167,7 @@ ClumpingFXModule
 	flatness		0.0
 	flatnessScale		rampUI(0.0,0.0,3)
 	frame			0.0
-	noise			5
+	noise			0
 	noiseScale		rampUI(0.0,1.0,3)
 	noiseFrequency		10
 	noiseCorrelation	0.0
@@ -337,7 +337,7 @@ RendermanRenderer
 SplinePrimitive
 	_patchNames		
 	length			$a=1.0000;#0.05,5.0\n$a
-	width			$a=0.7500;#0.005,0.5\n$a
+	width			$a=0.0050;#0.005,0.5\n$a
 	depth			$a=1.0;#0.05,5.0\n$a
 	offU			$a=0.0000;#-2.0,2.0\n$a
 	offV			$a=0.0000;#-2.0,2.0\n$a
@@ -452,6 +452,19 @@ ClumpingFXModule
 	controlMapDir		${DESC}/Clumping1/Maps/
 	endAttrs
 
+NoiseFXModule
+	active			true
+	mask			1.0
+	name			Noise1
+	frequency		1
+	magnitude		.5
+	magnitudeScale		rampUI(0.0,0.0,1:0.21443298969072164,0.6973684210526315,1:1.0,1.0,1)
+	correlation		0.0
+	preserveLength		0.0
+	mode			0
+	bakeDir			${DESC}/${FXMODULE}/
+	endAttrs
+
 RandomGenerator
 	displacement		$a=0.0000;#-1.0,1.0\n$a
 	vectorDisplacement	0
@@ -463,7 +476,7 @@ RandomGenerator
 	cullAngleBF		0.0
 	cullAngleF		0.0
 	cullExpr		$a=0.0000;#0.0,1.0\n$a
-	density			567.475
+	density			150000.0
 	mask			$a=map('${DESC}/paintmaps/TailMap');#3dpaint,5.0\n$a\n
 	dcFlag			false
 	scFlag			true
