@@ -2,7 +2,7 @@
 #
 # Version:  C:/Program Files/Autodesk/Maya2022/plug-ins/xgen/
 # Author:   Nate
-# Date:     Mon Mar 28 22:59:05 2022
+# Date:     Mon Mar 28 23:16:58 2022
 
 FileVersion 18
 
@@ -30,32 +30,6 @@ Description
 	descriptionId		0
 	xgDataPath		${PROJECT}xgen/collections/HairCircleColl/
 	xgProjectPath		F:/Personal/School/Spring2022/CharacterModels/Characters/
-	endAttrs
-
-GeometryRenderer
-	percent			100.0
-	startPercent		0.0
-	inCameraOnly		false
-	inCameraMargin		0.0
-	outputInstances		true
-	useWidthRamp		true
-	geometryType		0
-	shapeType		0
-	convertSelected		false
-	combineMesh		false
-	createStripJoints	false
-	stripJointPlacementType	0
-	jointNumOnStrip		3
-	createGuideJoints	false
-	guideJointPlacementType	0
-	jointNumOnGuide		3
-	meshOrientation		0
-	insertWidthSpan		false
-	widthSpanNum		1
-	curvature		0.500000
-	uvInTiles		true
-	uvLayoutType		0
-	uvTileSeparation	0.000000
 	endAttrs
 
 RendermanRenderer
@@ -106,6 +80,32 @@ RendermanRenderer
 	custom__arnold_useAuxRenderPatch	0
 	custom__arnold_auxRenderPatch	0
 	custom__arnold_multithreading	0
+	endAttrs
+
+GeometryRenderer
+	percent			100.0
+	startPercent		0.0
+	inCameraOnly		false
+	inCameraMargin		0.0
+	outputInstances		true
+	useWidthRamp		true
+	geometryType		0
+	shapeType		0
+	convertSelected		false
+	combineMesh		false
+	createStripJoints	false
+	stripJointPlacementType	0
+	jointNumOnStrip		3
+	createGuideJoints	false
+	guideJointPlacementType	0
+	jointNumOnGuide		3
+	meshOrientation		0
+	insertWidthSpan		false
+	widthSpanNum		1
+	curvature		0.500000
+	uvInTiles		true
+	uvLayoutType		0
+	uvTileSeparation	0.000000
 	endAttrs
 
 SplinePrimitive
@@ -258,6 +258,32 @@ Description
 	xgProjectPath		F:/Personal/School/Spring2022/CharacterModels/Characters/
 	endAttrs
 
+GeometryRenderer
+	percent			100.0
+	startPercent		0.0
+	inCameraOnly		false
+	inCameraMargin		0.0
+	outputInstances		true
+	useWidthRamp		true
+	geometryType		0
+	shapeType		0
+	convertSelected		false
+	combineMesh		false
+	createStripJoints	false
+	stripJointPlacementType	0
+	jointNumOnStrip		3
+	createGuideJoints	false
+	guideJointPlacementType	0
+	jointNumOnGuide		3
+	meshOrientation		0
+	insertWidthSpan		false
+	widthSpanNum		1
+	curvature		0.500000
+	uvInTiles		true
+	uvLayoutType		0
+	uvTileSeparation	0.000000
+	endAttrs
+
 RendermanRenderer
 	percent			100.0
 	startPercent		0.0
@@ -306,32 +332,6 @@ RendermanRenderer
 	custom__arnold_useAuxRenderPatch	0
 	custom__arnold_auxRenderPatch	0
 	custom__arnold_multithreading	0
-	endAttrs
-
-GeometryRenderer
-	percent			100.0
-	startPercent		0.0
-	inCameraOnly		false
-	inCameraMargin		0.0
-	outputInstances		true
-	useWidthRamp		true
-	geometryType		0
-	shapeType		0
-	convertSelected		false
-	combineMesh		false
-	createStripJoints	false
-	stripJointPlacementType	0
-	jointNumOnStrip		3
-	createGuideJoints	false
-	guideJointPlacementType	0
-	jointNumOnGuide		3
-	meshOrientation		0
-	insertWidthSpan		false
-	widthSpanNum		1
-	curvature		0.500000
-	uvInTiles		true
-	uvLayoutType		0
-	uvTileSeparation	0.000000
 	endAttrs
 
 SplinePrimitive
